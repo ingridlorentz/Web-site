@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+{%block content%}
+<div id="jum" class="jumbotron">
+  <h1 id="bie" class="display-4">💥👾👽 Bienvenido a One Space 💥👾👽</h1>
+<br>
+<br>
+  <h2 id="p" class="lead">Somos One Space, un espacio para ti en el mundo del internet</h2>
+  <br>
+  <p id="oo">En One Space podrás dejar tus pensamientos o ideas y encontrar a alguien que tenga ideales similares a los tuyos.¿Que esperas? Deja un comentario ya! <br>
+    <br>
+     😝 No debes registarte 😝</p>
+  <a class="btn btn-primary btn-lg" href="{{url_for('politics')}}" role="button">Conoce nuestras políticas</a>
+</div>
+
+<!-- begin wwww.htmlcommentbox.com -->
+<div id="jum1" class="jumbotron">
+  <h1 id="ti" class="display-4">👋💣Escribe tú comentario o idea!👋💣</h1>
+  <hr class="my-4">
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24s3avYuMLFTgTa4o6lkgY4%2F"+"&opts=16862&num=10&ts=1581727095316");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+
+{%endblock%}
